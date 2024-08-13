@@ -17,7 +17,7 @@ module.exports = (user) => {
     .setColor(EMBED_COLORS.BOT_EMBED)
     .setImage(x256)
     .setDescription(
-      `Links: • [x64](${x64}) ` +
+      `• [x64](${x64}) ` +
         `• [x128](${x128}) ` +
         `• [x256](${x256}) ` +
         `• [x512](${x512}) ` +

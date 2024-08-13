@@ -19,7 +19,7 @@ module.exports = {
   botPermissions: ["EmbedLinks"],
   command: {
     enabled: true,
-    aliases: ["tr"],
+    aliases: ["tr", "tl"],
     usage: "<iso-code> <message>",
     minArgsCount: 2,
   },

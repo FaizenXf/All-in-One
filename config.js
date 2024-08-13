@@ -30,7 +30,7 @@ module.exports = {
   // PLUGINS
 
   AUTOMOD: {
-    ENABLED: true,
+    ENABLED: false,
     LOG_EMBED: "#00ff39",
     DM_EMBED: "#00ff39",
   },

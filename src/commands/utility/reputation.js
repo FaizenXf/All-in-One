@@ -7,14 +7,14 @@ const { EMBED_COLORS } = require("@root/config");
  * @type {import("@structures/Command")}
  */
 module.exports = {
-  name: "rep",
+  name: "reputation",
   description: "give reputation to a user",
   category: "UTILITY",
   botPermissions: ["EmbedLinks"],
   command: {
     enabled: true,
     minArgsCount: 1,
-    aliases: ["reputation"],
+    aliases: ["rep"],
     subcommands: [
       {
         trigger: "view [user]",

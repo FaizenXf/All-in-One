@@ -25,6 +25,7 @@ module.exports = {
   botPermissions: ["EmbedLinks"],
   command: {
     enabled: true,
+    aliases: ["h", "desk", "dashboard"],
     usage: "[command]",
   },
   slashCommand: {
@@ -128,7 +129,7 @@ async function getHelpMenu({ client, guild }) {
 
   const embed = new EmbedBuilder()
     .setColor(EMBED_COLORS.BOT_EMBED)
-    //.setThumbnail(client.user.displayAvatarURL())
+    .setThumbnail(client.user.displayAvatarURL())
     //.setImage(`https://share.creavite.co/663f19346f72a4507e459a7b.gif`)
         /*.addFields([
         {
@@ -156,28 +157,28 @@ async function getHelpMenu({ client, guild }) {
           inline: true
         }
         ])*/
+    .setAuthor({name: `Safari Help Panel..!`, iconURL: client.user.displayAvatarURL()})
+    .setFooter({
+        text: `.help | Made With ❤️ By Faizen Sosuke`, iconURL: client.user.displayAvatarURL()
+      })
     .setDescription(`
 <:Knownas:1266799019472978076> ** __ABOUT ME. . !__**
-> Heya, It's " __Safarii__ "A Elegant Multipurpose Discord Bot with Impressive Quality of Sound System & Large Amout of Features For Greater Experience . " __Safarii__ " is Making Music & Moderation More Enhanced in Discord.
+> Heya, It's " __Safarii__ "A Multipurpose Discord Bot with Large Amout of Features For Greater Experience.
 
-> <:Knownas:1266799019472978076> **__CATEGORIES. . !__**
-<:saf_owner:1260983975397032058> : Admin
-<:saf_moderation:1260983899853688935> : Automod
-<:saf_economy:1260984067449426003> : Economy
-<:saf_fun:1260983847282020382> : Fun-Game
-<:saf_giveaway:1260983704692723743> : Giveaway
-<:saf_image:1260983639202861067> : Image
-<:saf_invite:1260984225985990817> : Invite
-<:saf_info:1260983784397078668> : Information
-<:saf_moderation:1260983899853688935> : Moderation
-<:saf_music:1260983606336290968> : Music
-<:saf_owner:1260983975397032058> : Owner
-<:saf_social:1260984181140357160> : Social
-<:saf_stat:1260984327236489306> : Statistics
-<:saf_suggest:1260984023648571494> : Suggestion
-<:saf_ticket:1260983663965765642> : Ticket
-<:saf_util:1260984270726631576> : Utility
-[Invite](https://discord.com/api/oauth2/authorize?client_id=1271702857850290206&scope=bot+applications.commands&permissions=1374891928950) | [Support](https://discord.gg/faizensosuke)`);
+ <:Knownas:1266799019472978076> **__CATEGORIES. . !__**
+> <:saf_owner:1260983975397032058> : Admin
+> <:saf_economy:1260984067449426003> : Economy\n> <:saf_fun:1260983847282020382> : Fun-Game
+> <:saf_giveaway:1260983704692723743> : Giveaway
+> <:saf_image:1260983639202861067> : Image
+> <:saf_invite:1260984225985990817> : Invite
+> <:saf_info:1260983784397078668> : Information
+> <:saf_moderation:1260983899853688935> : Moderation
+> <:saf_music:1260983606336290968> : Music
+> <:saf_stat:1260984327236489306> : Ranks
+> <:saf_suggest:1260984023648571494> : Suggestion
+> <:saf_ticket:1260983663965765642> : Ticket
+> <:saf_util:1260984270726631576> : Utility
+> [Invite](https://discord.com/api/oauth2/authorize?client_id=1271702857850290206&scope=bot+applications.commands&permissions=1374891928950) | [Support](https://discord.gg/faizensosuke)`);
 
   return {
     embeds: [embed],
