@@ -3,7 +3,7 @@
 /**
  * @type {import("@structures/Command")}
  */
-module.exports = {
+/*module.exports = {
   name: "autodelete",
   description: "manage the autodelete settings for the server",
   category: "AUTOMOD",
