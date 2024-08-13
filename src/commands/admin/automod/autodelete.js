@@ -1,4 +1,4 @@
-const { ApplicationCommandOptionType } = require("discord.js");
+/*const { ApplicationCommandOptionType } = require("discord.js");
 
 /**
  * @type {import("@structures/Command")}
@@ -211,3 +211,4 @@ async function maxLines(settings, input) {
       : `Messages longer than \`${input}\` lines will now be automatically deleted`
   }`;
 }
+*/
