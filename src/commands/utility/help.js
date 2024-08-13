@@ -177,7 +177,7 @@ async function getHelpMenu({ client, guild }) {
 <:saf_suggest:1260984023648571494> : Suggestion
 <:saf_ticket:1260983663965765642> : Ticket
 <:saf_util:1260984270726631576> : Utility
-[Invite](https://discord.com/api/oauth2/authorize?client_id=1271702857850290206&scope=bot+applications.commands&permissions=1374891928950) | [Support](https://discord.gg/)`);
+[Invite](https://discord.com/api/oauth2/authorize?client_id=1271702857850290206&scope=bot+applications.commands&permissions=1374891928950) | [Support](https://discord.gg/faizensosuke)`);
 
   return {
     embeds: [embed],
