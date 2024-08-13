@@ -1,9 +1,9 @@
 module.exports = {
-  OWNER_IDS: ["1203605618745933880"], // Bot owner ID's
+  OWNER_IDS: ["963354050617815060"], // Bot owner ID's
   SUPPORT_SERVER: "https://discord.gg/btQJeGKKHJ", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: "e!", // Default prefix for the bot
+    DEFAULT_PREFIX: ".", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
@@ -12,11 +12,11 @@ module.exports = {
     TEST_GUILD_ID: "1238428698575900682", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
-    BOT_EMBED: "#068ADD",
-    TRANSPARENT: "#36393F",
-    SUCCESS: "#00A56A",
-    ERROR: "#D61A3C",
-    WARNING: "#F7E919",
+    BOT_EMBED: "#00ff39",
+    TRANSPARENT: "#00ff39",
+    SUCCESS: "#00ff39",
+    ERROR: "#00ff39",
+    WARNING: "#00ff39",
   },
   CACHE_SIZE: {
     GUILDS: 100,
@@ -31,8 +31,8 @@ module.exports = {
 
   AUTOMOD: {
     ENABLED: true,
-    LOG_EMBED: "#36393F",
-    DM_EMBED: "#36393F",
+    LOG_EMBED: "#00ff39",
+    DM_EMBED: "#00ff39",
   },
 
   DASHBOARD: {
@@ -51,17 +51,17 @@ module.exports = {
   },
 
   MUSIC: {
-    ENABLED: false,
+    ENABLED: true,
     IDLE_TIME: 60, // Time in seconds before the bot disconnects from an idle voice channel
     MAX_SEARCH_RESULTS: 5,
-    DEFAULT_SOURCE: "SC", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
+    DEFAULT_SOURCE: "YT", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
     // Add any number of lavalink nodes here
     // Refer to https://github.com/freyacodes/Lavalink to host your own lavalink server
     LAVALINK_NODES: [
       {
-        host: "lava.godzillaa.com",
-        port: 25101,
-        password: "dsc.gg/gdz",
+        host: "hk.aarubot.xyz",
+        port: 57010,
+        password: "Saikawa",
         id: "Music",
         secure: false,
       },
@@ -70,9 +70,9 @@ module.exports = {
 
   GIVEAWAYS: {
     ENABLED: true,
-    REACTION: "<:present:1238429986176892938>",
-    START_EMBED: "#FF468A",
-    END_EMBED: "#FF468A",
+    REACTION: " ❤️  ",
+    START_EMBED: "#00ff39",
+    END_EMBED: "#00ff39",
   },
 
   IMAGE: {
@@ -87,18 +87,18 @@ module.exports = {
   MODERATION: {
     ENABLED: true,
     EMBED_COLORS: {
-      TIMEOUT: "#102027",
-      UNTIMEOUT: "#4B636E",
-      KICK: "#FF7961",
-      SOFTBAN: "#AF4448",
-      BAN: "#D32F2F",
-      UNBAN: "#00C853",
-      VMUTE: "#102027",
-      VUNMUTE: "#4B636E",
-      DEAFEN: "#102027",
-      UNDEAFEN: "#4B636E",
-      DISCONNECT: "RANDOM",
-      MOVE: "RANDOM",
+      TIMEOUT: "#00ff39",
+      UNTIMEOUT: "#00ff39",
+      KICK: "#00ff39",
+      SOFTBAN: "#00ff39",
+      BAN: "#00ff39",
+      UNBAN: "#00ff39",
+      VMUTE: "#00ff39",
+      VUNMUTE: "#00ff39",
+      DEAFEN: "#00ff39",
+      UNDEAFEN: "#00ff39",
+      DISCONNECT: "00ff39",
+      MOVE: "00ff39",
     },
   },
 
@@ -106,7 +106,7 @@ module.exports = {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} members", // Your bot status message
+    MESSAGE: ".Help | FaizenSosuke ", // Your bot status message
   },
 
   STATS: {
@@ -121,14 +121,14 @@ module.exports = {
       UP_VOTE: "⬆️",
       DOWN_VOTE: "⬇️",
     },
-    DEFAULT_EMBED: "#4F545C",
-    APPROVED_EMBED: "#43B581",
-    DENIED_EMBED: "#F04747",
+    DEFAULT_EMBED: "#00ff39",
+    APPROVED_EMBED: "#00ff39",
+    DENIED_EMBED: "#00ff39",
   },
 
   TICKET: {
     ENABLED: true,
-    CREATE_EMBED: "#068ADD",
-    CLOSE_EMBED: "#068ADD",
+    CREATE_EMBED: "#00ff39",
+    CLOSE_EMBED: "#00ff39",
   },
 };

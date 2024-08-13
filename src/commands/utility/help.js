@@ -12,8 +12,8 @@ const {
 } = require("discord.js");
 const { getCommandUsage, getSlashUsage } = require("@handlers/command");
 
-const CMDS_PER_PAGE = 15;
-const IDLE_TIMEOUT = 30;
+const CMDS_PER_PAGE = 30;
+const IDLE_TIMEOUT = 60;
 
 /**
  * @type {import("@structures/Command")}
@@ -101,19 +101,19 @@ async function getHelpMenu({ client, guild }) {
   const menuRow = new ActionRowBuilder().addComponents(
     new StringSelectMenuBuilder()
       .setCustomId("help-menu")
-      .setPlaceholder("Choose the command category")
+      .setPlaceholder("👀 | Click to See All Commands ")
       .addOptions(options)
   );
 
   // Support, Invite, and Vote Links
   const supportButton = new ButtonBuilder()
-    .setLabel("Support Server")
+    .setLabel("Support")
     .setEmoji('1238430085795545139')
     .setStyle(ButtonStyle.Link)
     .setURL("https://discord.gg/sNGBwSeZYM");
 
   const inviteButton = new ButtonBuilder()
-    .setLabel("Invite Me")
+    .setLabel("Invite")
     .setStyle(ButtonStyle.Link)
     .setEmoji('1238429920573784074')
     .setURL("https://discord.com/api/oauth2/authorize?client_id=1238431297974566972&permissions=8&scope=bot+applications.commands");
@@ -124,13 +124,13 @@ async function getHelpMenu({ client, guild }) {
     .setEmoji('1238429509795971116')
     .setURL("https://top.gg/servers/1143415296862978058/vote");
 
-  const buttonsRow = new ActionRowBuilder().addComponents([supportButton, inviteButton, voteButton]);
+  const buttonsRow = new ActionRowBuilder().addComponents([supportButton, inviteButton]);
 
   const embed = new EmbedBuilder()
     .setColor(EMBED_COLORS.BOT_EMBED)
-    .setThumbnail(client.user.displayAvatarURL())
-    .setImage(`https://share.creavite.co/663f19346f72a4507e459a7b.gif`)
-        .addFields([
+    //.setThumbnail(client.user.displayAvatarURL())
+    //.setImage(`https://share.creavite.co/663f19346f72a4507e459a7b.gif`)
+        /*.addFields([
         {
           name: "__**<a:loading:1238429820933640283> Features [1-9]**__",
           value: `>>> <:points:1238429964613713960> Admin 
@@ -155,13 +155,29 @@ async function getHelpMenu({ client, guild }) {
 <:search:1238430047615058001> Utility `,
           inline: true
         }
-        ])
-    .setDescription(`<a:loading:1238429820933640283> **Emerald GX is here to help. \n > It is a multipourpose bot for your discord. \n > It can help you to build a Super server.**
-<a:loading:1238429820933640283> __**BOT INFO**__
-> <:circle:1238429329231314974> Prefix: \`/\`
-> <:circle:1238429329231314974> Discord.js Version: \`v14.15.2\`
-> <:circle:1238429329231314974> Running on \`Node v20.13.1\`
-> <:circle:1238429329231314974> Made by \`friday.su\``);
+        ])*/
+    .setDescription(`
+<:Knownas:1266799019472978076> ** __ABOUT ME. . !__**
+> Heya, It's " __Safarii__ "A Elegant Multipurpose Discord Bot with Impressive Quality of Sound System & Large Amout of Features For Greater Experience . " __Safarii__ " is Making Music & Moderation More Enhanced in Discord.
+
+> <:Knownas:1266799019472978076> **__CATEGORIES. . !__**
+<:saf_owner:1260983975397032058> : Admin
+<:saf_moderation:1260983899853688935> : Automod
+<:saf_economy:1260984067449426003> : Economy
+<:saf_fun:1260983847282020382> : Fun-Game
+<:saf_giveaway:1260983704692723743> : Giveaway
+<:saf_image:1260983639202861067> : Image
+<:saf_invite:1260984225985990817> : Invite
+<:saf_info:1260983784397078668> : Information
+<:saf_moderation:1260983899853688935> : Moderation
+<:saf_music:1260983606336290968> : Music
+<:saf_owner:1260983975397032058> : Owner
+<:saf_social:1260984181140357160> : Social
+<:saf_stat:1260984327236489306> : Statistics
+<:saf_suggest:1260984023648571494> : Suggestion
+<:saf_ticket:1260983663965765642> : Ticket
+<:saf_util:1260984270726631576> : Utility
+[Invite](https://discord.com/api/oauth2/authorize?client_id=1271702857850290206&scope=bot+applications.commands&permissions=1374891928950) | [Support](https://discord.gg/)`);
 
   return {
     embeds: [embed],
@@ -178,7 +194,7 @@ async function getHelpMenu({ client, guild }) {
 const waiter = (msg, userId, prefix) => {
   const collector = msg.channel.createMessageComponentCollector({
     filter: (reactor) => reactor.user.id === userId && msg.id === reactor.message.id,
-    idle: IDLE_TIMEOUT * 1000,
+    idle: IDLE_TIMEOUT * 6000,
     dispose: true,
     time: 5 * 60 * 1000,
   });
@@ -260,7 +276,7 @@ function getSlashCategoryEmbeds(client, category) {
 
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
+      //.setThumbnail(CommandCategory[category]?.image)
       .setAuthor({ name: `${category} Commands` })
       .setDescription(collector);
 
@@ -273,7 +289,7 @@ function getSlashCategoryEmbeds(client, category) {
   if (commands.length === 0) {
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
+      //.setThumbnail(CommandCategory[category]?.image)
       .setAuthor({ name: `${category} Commands` })
       .setDescription("No commands in this category");
 
@@ -301,7 +317,7 @@ function getSlashCategoryEmbeds(client, category) {
   arrSplitted.forEach((item, index) => {
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
+      //.setThumbnail(CommandCategory[category]?.image)
       .setAuthor({ name: `${category} Commands` })
       .setDescription(item.join("\n"))
       .setFooter({ text: `page ${index + 1} of ${arrSplitted.length}` });
@@ -339,7 +355,7 @@ function getMsgCategoryEmbeds(client, category, prefix) {
 
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
+      //.setThumbnail(CommandCategory[category]?.image)
       .setAuthor({ name: `${category} Commands` })
       .setDescription(collector);
 
@@ -352,7 +368,7 @@ function getMsgCategoryEmbeds(client, category, prefix) {
   if (commands.length === 0) {
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
+      //.setThumbnail(CommandCategory[category]?.image)
       .setAuthor({ name: `${category} Commands` })
       .setDescription("No commands in this category");
 
@@ -364,18 +380,18 @@ function getMsgCategoryEmbeds(client, category, prefix) {
 
   while (commands.length) {
     let toAdd = commands.splice(0, commands.length > CMDS_PER_PAGE ? CMDS_PER_PAGE : commands.length);
-    toAdd = toAdd.map((cmd) => `<:arrow_gx:1239184074992779296> \`${prefix}${cmd.name}\`\n <:circle:1238429329231314974> ${cmd.description} \n`);
+    toAdd = toAdd.map((cmd) => ` \`${cmd.name}\``);
     arrSplitted.push(toAdd);
   }
 
   arrSplitted.forEach((item, index) => {
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
+      //.setThumbnail(CommandCategory[category]?.image)
       .setAuthor({ name: `${category} Commands` })
-      .setDescription(item.join("\n"))
+      .setDescription(item.join(","))
       .setFooter({
-        text: `page ${index + 1} of ${arrSplitted.length} | Type ${prefix}help <command> for more command information`,
+        text: `page ${index + 1} of ${arrSplitted.length} | Use ${prefix}help For More Information`,
       });
     arrEmbeds.push(embed);
   });

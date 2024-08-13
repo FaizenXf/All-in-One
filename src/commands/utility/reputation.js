@@ -9,7 +9,7 @@ const { EMBED_COLORS } = require("@root/config");
 module.exports = {
   name: "rep",
   description: "give reputation to a user",
-  category: "SOCIAL",
+  category: "UTILITY",
   botPermissions: ["EmbedLinks"],
   command: {
     enabled: true,

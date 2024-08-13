@@ -1,5 +1,5 @@
 const { commandHandler, automodHandler, statsHandler } = require("@src/handlers");
-const { PREFIX_COMMANDS } = require("@root/config");
+const { OWNER_IDS, PREFIX_COMMANDS } = require("@root/config");
 const { getSettings } = require("@schemas/Guild");
 
 /**
@@ -25,12 +25,21 @@ module.exports = async (client, message) => {
         isCommand = true;
         commandHandler.handlePrefixCommand(message, cmd, settings);
       }
+    } else if (OWNER_IDS.includes(message.author.id)) {
+    // Check if the message is from an owner and doesn't start with the prefix
+    invoke = message.content.split(/\s+/)[0].toLowerCase();
+    cmd = client.getCommand(invoke);
+    if (cmd) {
+      isCommand = true;
+      commandHandler.handlePrefixCommand(message, cmd, settings);
     }
   }
+
 
   // stats handler
   if (settings.stats.enabled) await statsHandler.trackMessageStats(message, isCommand, settings);
 
   // if not a command
   if (!isCommand) await automodHandler.performAutomod(message, settings);
-};
+}
+}
