@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Axocoder0&theme=blueberry&show_icons=true&hide_border=false&count_private=false" height="150" alt="GitHub Stats"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Axocoder0&theme=blueberry&show_icons=true&hide_border=false&layout=compact" height="150" alt="Top Languages"  />
+  
 </div>
 
 <img align="right" height="150" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="Animated Coding" />
