@@ -1,7 +1,7 @@
 <h2 align="center">Hi there! 👋 I'm FaizenSosuke, a Beginner Discord Bot Developer</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Axocoder0&theme=blueberry&show_icons=true&hide_border=false&count_private=false" height="150" alt="GitHub Stats"  />
+
   
 </div>
 
