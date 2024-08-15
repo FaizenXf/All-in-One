@@ -5,7 +5,7 @@
   
 </div>
 
-<img align="center" height="150" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="Animated Coding" />
+<img align="center" height="200" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="Animated Coding" />
 
 <h3>About Me</h3>
 <div align="center">
