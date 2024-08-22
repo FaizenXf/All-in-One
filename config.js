@@ -61,7 +61,7 @@ module.exports = {
       {
         host: "sg.aarubot.xyz",
         port: 57010,
-        password: "Ayamo",
+        password: "Ayano",
         id: "Music",
         secure: false,
       },
