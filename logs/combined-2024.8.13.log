@@ -7606,3 +7606,204 @@
 {"level":30,"time":1723540802489,"pid":10637,"hostname":"a1fb500074c5","msg":"Successfully registered interactions"}
 {"level":20,"time":1723540862034,"pid":10637,"hostname":"a1fb500074c5","msg":"Node \"Music\" debug: connection: lavaclient <<< stats: {\"players\":2,\"playingPlayers\":0,\"uptime\":1132670708,\"memory\":{\"free\":43453392,\"used\":96257072,\"allocated\":139710464,\"reservable\":823066624},\"cpu\":{\"cores\":1,\"systemLoad\":0.11408560311284047,\"lavalinkLoad\":1.4979029358897544E-4},\"op\":\"stats\"}"}
 {"level":20,"time":1723540922034,"pid":10637,"hostname":"a1fb500074c5","msg":"Node \"Music\" debug: connection: lavaclient <<< stats: {\"players\":2,\"playingPlayers\":0,\"uptime\":1132730708,\"memory\":{\"free\":40736192,\"used\":98974272,\"allocated\":139710464,\"reservable\":823066624},\"cpu\":{\"cores\":1,\"systemLoad\":0.10339506172839506,\"lavalinkLoad\":2.9967036260113877E-4},\"op\":\"stats\"}"}
+{"level":30,"time":1723541281473,"pid":1110,"hostname":"619fb85a9228","msg":"Validating config file and environment variables"}
+{"level":30,"time":1723541281516,"pid":1110,"hostname":"619fb85a9228","msg":"Loading commands..."}
+{"level":20,"time":1723541281524,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1723541281572,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1723541281600,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command boostcount. Disabled!"}
+{"level":20,"time":1723541281601,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command emojicount. Disabled!"}
+{"level":20,"time":1723541281604,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command membercount. Disabled!"}
+{"level":20,"time":1723541281605,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1723541281606,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1723541281607,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1723541281609,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1723541281610,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1723541281622,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1723541281622,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1723541281623,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1723541281625,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1723541281626,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1723541281634,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1723541281634,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1723541281635,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1723541281635,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1723541281636,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1723541281636,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1723541281636,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1723541281637,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1723541281637,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1723541281638,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1723541281638,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1723541281639,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1723541281640,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1723541281641,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1723541281653,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1723541281654,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1723541281655,"pid":1110,"hostname":"619fb85a9228","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1723541281701,"pid":1110,"hostname":"619fb85a9228","msg":"Loaded 101 commands"}
+{"level":30,"time":1723541281702,"pid":1110,"hostname":"619fb85a9228","msg":"Loaded 79 slash commands"}
+{"level":30,"time":1723541281702,"pid":1110,"hostname":"619fb85a9228","msg":"Loading contexts..."}
+{"level":30,"time":1723541281716,"pid":1110,"hostname":"619fb85a9228","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1723541281717,"pid":1110,"hostname":"619fb85a9228","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1723541281720,"pid":1110,"hostname":"619fb85a9228","msg":"Loading events..."}
+{"level":30,"time":1723541281906,"pid":1110,"hostname":"619fb85a9228","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1723541282343,"pid":1110,"hostname":"619fb85a9228","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1723541282343,"pid":1110,"hostname":"619fb85a9228","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1723541282613,"pid":1110,"hostname":"619fb85a9228","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1723541284569,"pid":1110,"hostname":"619fb85a9228","msg":"Logged in as Asli Safari#8991! (1271702857850290206)"}
+{"level":20,"time":1723541284570,"pid":1110,"hostname":"619fb85a9228","msg":"Node \"Music\" debug: connection: creating websocket..."}
+{"level":30,"time":1723541284572,"pid":1110,"hostname":"619fb85a9228","msg":"Music Manager initialized"}
+{"level":30,"time":1723541284573,"pid":1110,"hostname":"619fb85a9228","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1723541284590,"pid":1110,"hostname":"619fb85a9228","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1723541284843,"pid":1110,"hostname":"619fb85a9228","msg":"Node \"Music\" connected"}
+{"level":20,"time":1723541284843,"pid":1110,"hostname":"619fb85a9228","msg":"Node \"Music\" debug: connection: connected in 271ms"}
+{"level":20,"time":1723541284844,"pid":1110,"hostname":"619fb85a9228","msg":"Node \"Music\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"nzhhayfz5rd3ac91\",\"op\":\"ready\"}"}
+{"level":20,"time":1723541284844,"pid":1110,"hostname":"619fb85a9228","msg":"Node \"Music\" debug: connection: lavaclient <<< stats: {\"players\":2,\"playingPlayers\":0,\"uptime\":1133093520,\"memory\":{\"free\":22905760,\"used\":116804704,\"allocated\":139710464,\"reservable\":823066624},\"cpu\":{\"cores\":1,\"systemLoad\":0.11633663366336634,\"lavalinkLoad\":0.002364066193853428},\"op\":\"stats\"}"}
+{"level":30,"time":1723541285288,"pid":1110,"hostname":"619fb85a9228","msg":"Successfully registered interactions"}
+{"level":20,"time":1723541344845,"pid":1110,"hostname":"619fb85a9228","msg":"Node \"Music\" debug: connection: lavaclient <<< stats: {\"players\":2,\"playingPlayers\":0,\"uptime\":1133153519,\"memory\":{\"free\":20053480,\"used\":119656984,\"allocated\":139710464,\"reservable\":823066624},\"cpu\":{\"cores\":1,\"systemLoad\":0.15177478580171358,\"lavalinkLoad\":0.0},\"op\":\"stats\"}"}
+{"level":20,"time":1723541404844,"pid":1110,"hostname":"619fb85a9228","msg":"Node \"Music\" debug: connection: lavaclient <<< stats: {\"players\":2,\"playingPlayers\":0,\"uptime\":1133213519,\"memory\":{\"free\":15972000,\"used\":123738464,\"allocated\":139710464,\"reservable\":823066624},\"cpu\":{\"cores\":1,\"systemLoad\":0.09290953545232274,\"lavalinkLoad\":0.0},\"op\":\"stats\"}"}
+{"level":30,"time":1723541455275,"pid":1155,"hostname":"619fb85a9228","msg":"Validating config file and environment variables"}
+{"level":30,"time":1723541455321,"pid":1155,"hostname":"619fb85a9228","msg":"Loading commands..."}
+{"level":20,"time":1723541455333,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1723541455414,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1723541455486,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command boostcount. Disabled!"}
+{"level":20,"time":1723541455487,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command emojicount. Disabled!"}
+{"level":20,"time":1723541455494,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command membercount. Disabled!"}
+{"level":20,"time":1723541455499,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1723541455500,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1723541455501,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1723541455505,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1723541455505,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1723541455513,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1723541455514,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1723541455515,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1723541455516,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1723541455517,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1723541455577,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1723541455578,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1723541455579,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1723541455579,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1723541455580,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1723541455580,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1723541455581,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1723541455581,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1723541455581,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1723541455582,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1723541455583,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1723541455583,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1723541455590,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1723541455591,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1723541455616,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1723541455616,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1723541455617,"pid":1155,"hostname":"619fb85a9228","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1723541455629,"pid":1155,"hostname":"619fb85a9228","msg":"Loaded 101 commands"}
+{"level":30,"time":1723541455629,"pid":1155,"hostname":"619fb85a9228","msg":"Loaded 79 slash commands"}
+{"level":30,"time":1723541455629,"pid":1155,"hostname":"619fb85a9228","msg":"Loading contexts..."}
+{"level":30,"time":1723541455630,"pid":1155,"hostname":"619fb85a9228","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1723541455630,"pid":1155,"hostname":"619fb85a9228","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1723541455630,"pid":1155,"hostname":"619fb85a9228","msg":"Loading events..."}
+{"level":30,"time":1723541455657,"pid":1155,"hostname":"619fb85a9228","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1723541455989,"pid":1155,"hostname":"619fb85a9228","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1723541455990,"pid":1155,"hostname":"619fb85a9228","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1723541456471,"pid":1155,"hostname":"619fb85a9228","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1723541458716,"pid":1172,"hostname":"619fb85a9228","msg":"Validating config file and environment variables"}
+{"level":30,"time":1723541458744,"pid":1172,"hostname":"619fb85a9228","msg":"Loading commands..."}
+{"level":20,"time":1723541458754,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1723541458794,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1723541458820,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command boostcount. Disabled!"}
+{"level":20,"time":1723541458821,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command emojicount. Disabled!"}
+{"level":20,"time":1723541458826,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command membercount. Disabled!"}
+{"level":20,"time":1723541458827,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1723541458827,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1723541458838,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1723541458843,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1723541458864,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1723541458897,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1723541458898,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1723541458910,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1723541458913,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1723541458922,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1723541458942,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1723541458945,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1723541458946,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1723541458947,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1723541458949,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1723541458950,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1723541458951,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1723541458962,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1723541458965,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1723541458967,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1723541458968,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1723541458970,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1723541458973,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1723541458975,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1723541458986,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1723541458986,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1723541458987,"pid":1172,"hostname":"619fb85a9228","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1723541459001,"pid":1172,"hostname":"619fb85a9228","msg":"Loaded 101 commands"}
+{"level":30,"time":1723541459001,"pid":1172,"hostname":"619fb85a9228","msg":"Loaded 79 slash commands"}
+{"level":30,"time":1723541459001,"pid":1172,"hostname":"619fb85a9228","msg":"Loading contexts..."}
+{"level":30,"time":1723541459002,"pid":1172,"hostname":"619fb85a9228","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1723541459002,"pid":1172,"hostname":"619fb85a9228","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1723541459002,"pid":1172,"hostname":"619fb85a9228","msg":"Loading events..."}
+{"level":30,"time":1723541459052,"pid":1172,"hostname":"619fb85a9228","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1723541459135,"pid":1172,"hostname":"619fb85a9228","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1723541459137,"pid":1172,"hostname":"619fb85a9228","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1723541459439,"pid":1172,"hostname":"619fb85a9228","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1723541461673,"pid":1189,"hostname":"619fb85a9228","msg":"Validating config file and environment variables"}
+{"level":30,"time":1723541461716,"pid":1189,"hostname":"619fb85a9228","msg":"Loading commands..."}
+{"level":20,"time":1723541461736,"pid":1189,"hostname":"619fb85a9228","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":30,"time":1723541463134,"pid":1202,"hostname":"619fb85a9228","msg":"Validating config file and environment variables"}
+{"level":30,"time":1723541463178,"pid":1202,"hostname":"619fb85a9228","msg":"Loading commands..."}
+{"level":20,"time":1723541463191,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1723541463214,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1723541463238,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command boostcount. Disabled!"}
+{"level":20,"time":1723541463239,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command emojicount. Disabled!"}
+{"level":20,"time":1723541463242,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command membercount. Disabled!"}
+{"level":20,"time":1723541463243,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1723541463244,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1723541463245,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1723541463246,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1723541463247,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1723541463253,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1723541463254,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1723541463255,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1723541463256,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1723541463257,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1723541463263,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1723541463269,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1723541463270,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1723541463270,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1723541463271,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1723541463271,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1723541463272,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1723541463272,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1723541463272,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1723541463273,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1723541463274,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1723541463274,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1723541463276,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1723541463277,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1723541463298,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1723541463298,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1723541463300,"pid":1202,"hostname":"619fb85a9228","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1723541463312,"pid":1202,"hostname":"619fb85a9228","msg":"Loaded 101 commands"}
+{"level":30,"time":1723541463312,"pid":1202,"hostname":"619fb85a9228","msg":"Loaded 79 slash commands"}
+{"level":30,"time":1723541463313,"pid":1202,"hostname":"619fb85a9228","msg":"Loading contexts..."}
+{"level":30,"time":1723541463313,"pid":1202,"hostname":"619fb85a9228","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1723541463314,"pid":1202,"hostname":"619fb85a9228","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1723541463314,"pid":1202,"hostname":"619fb85a9228","msg":"Loading events..."}
+{"level":30,"time":1723541463351,"pid":1202,"hostname":"619fb85a9228","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1723541464407,"pid":1202,"hostname":"619fb85a9228","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1723541464407,"pid":1202,"hostname":"619fb85a9228","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1723541464614,"pid":1202,"hostname":"619fb85a9228","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1723541466448,"pid":1202,"hostname":"619fb85a9228","msg":"Logged in as Asli Safari#8991! (1271702857850290206)"}
+{"level":20,"time":1723541466449,"pid":1202,"hostname":"619fb85a9228","msg":"Node \"Music\" debug: connection: creating websocket..."}
+{"level":30,"time":1723541466450,"pid":1202,"hostname":"619fb85a9228","msg":"Music Manager initialized"}
+{"level":30,"time":1723541466450,"pid":1202,"hostname":"619fb85a9228","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1723541466471,"pid":1202,"hostname":"619fb85a9228","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1723541466726,"pid":1202,"hostname":"619fb85a9228","msg":"Node \"Music\" connected"}
+{"level":20,"time":1723541466726,"pid":1202,"hostname":"619fb85a9228","msg":"Node \"Music\" debug: connection: connected in 276ms"}
+{"level":20,"time":1723541466726,"pid":1202,"hostname":"619fb85a9228","msg":"Node \"Music\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"sbhkg1h4pkqtn11l\",\"op\":\"ready\"}"}
+{"level":20,"time":1723541466727,"pid":1202,"hostname":"619fb85a9228","msg":"Node \"Music\" debug: connection: lavaclient <<< stats: {\"players\":2,\"playingPlayers\":0,\"uptime\":1133275401,\"memory\":{\"free\":12803256,\"used\":126907208,\"allocated\":139710464,\"reservable\":823066624},\"cpu\":{\"cores\":1,\"systemLoad\":0.0,\"lavalinkLoad\":0.002358490566037736},\"op\":\"stats\"}"}
+{"level":30,"time":1723541467263,"pid":1202,"hostname":"619fb85a9228","msg":"Successfully registered interactions"}

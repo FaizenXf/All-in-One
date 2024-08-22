@@ -6,14 +6,14 @@ const { parse } = require("twemoji-parser");
  * @type {import("@structures/Command")}
  */
 module.exports = {
-  name: "bigemoji",
+  name: "enlarge",
   description: "enlarge an emoji",
   category: "UTILITY",
   botPermissions: ["EmbedLinks"],
   command: {
     enabled: true,
     usage: "<emoji>",
-    aliases: ["enlarge"],
+    aliases: ["bigemoji"],
     minArgsCount: 1,
   },
   slashCommand: {
