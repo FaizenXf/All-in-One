@@ -14,6 +14,7 @@ module.exports = {
   userPermissions: ["ManageGuild"],
   command: {
     enabled: true,
+    aliases: ["sug"],
     minArgsCount: 2,
     subcommands: [
       {

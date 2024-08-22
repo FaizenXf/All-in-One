@@ -243,12 +243,12 @@ async function handleTicketOpen(interaction) {
     const embed = new EmbedBuilder()
       .setAuthor({ name: `Ticket #${ticketNumber}` })
       .setDescription(
-        `Hello ${user.toString()}
-        Support will be with you shortly
+        `Hey, ${user.toString()}
+Support will be with you shortly
         ${catName ? `\n**Category:** ${catName}` : ""}
         `
       )
-      .setFooter({ text: "You may close your ticket anytime by clicking the button below" });
+      .setFooter({ text: " FaizenSosuke | Ticket Support " });
 
     let buttonsRow = new ActionRowBuilder().addComponents(
       new ButtonBuilder()

@@ -392,7 +392,7 @@ function getMsgCategoryEmbeds(client, category, prefix) {
       .setAuthor({ name: `${category} Commands` })
       .setDescription(item.join(","))
       .setFooter({
-        text: `page ${index + 1} of ${arrSplitted.length} | Use ${prefix}help For More Information`,
+        text: `${prefix}help | Made With 💜 By FaizenSosuke`,
       });
     arrEmbeds.push(embed);
   });

@@ -307,7 +307,7 @@ async function runModalSetup({ member, channel, guild }, targetCh) {
   );
 
   const sentMsg = await channel.safeSend({
-    content: "Please click the button below to setup new giveaway",
+    content: "Click Below to Start Giveaway",
     components: [buttonRow],
   });
 
@@ -333,7 +333,7 @@ async function runModalSetup({ member, channel, guild }, targetCh) {
           new TextInputBuilder()
             .setCustomId("duration")
             .setLabel("What is the duration?")
-            .setPlaceholder("1h / 1d / 1w")
+            .setPlaceholder("1m/ 1h / 1d / 1w")
             .setStyle(TextInputStyle.Short)
             .setRequired(true)
         ),
@@ -452,7 +452,7 @@ async function runModalEdit(message, messageId) {
           new TextInputBuilder()
             .setCustomId("duration")
             .setLabel("Duration to add")
-            .setPlaceholder("1h / 1d / 1w")
+            .setPlaceholder("1m/ 1h / 1d / 1w")
             .setStyle(TextInputStyle.Short)
             .setRequired(false)
         ),

@@ -23,6 +23,7 @@ module.exports = {
   userPermissions: ["ManageGuild"],
   command: {
     enabled: true,
+    aliases: ['tic'],
     minArgsCount: 1,
     subcommands: [
       {
@@ -346,7 +347,7 @@ async function ticketModalSetup({ guild, channel, member }, targetChannel, setti
     .setFooter({ text: footer || "You can only have 1 open ticket at a time!" });
 
   const tktBtnRow = new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setLabel("Open a ticket").setCustomId("TICKET_CREATE").setStyle(ButtonStyle.Success)
+    new ButtonBuilder().setLabel("Create Ticket").setCustomId("TICKET_CREATE").setEmoji('1276086788297064470').setStyle(2)
   );
 
   await targetChannel.send({ embeds: [embed], components: [tktBtnRow] });
@@ -360,7 +361,7 @@ async function setupLogChannel(target, settings) {
   settings.ticket.log_channel = target.id;
   await settings.save();
 
-  return `Configuration saved! Ticket logs will be sent to ${target.toString()}`;
+  return `Configuration saved!\n Ticket logs will be sent to ${target.toString()}`;
 }
 
 async function setupLimit(limit, settings) {
