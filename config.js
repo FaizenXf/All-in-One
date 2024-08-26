@@ -1,14 +1,14 @@
 module.exports = {
   OWNER_IDS: ["963354050617815060"], // Bot owner ID's
-  SUPPORT_SERVER: "https://discord.com/invite/xRfBzpJB", // Your bot support server
+  SUPPORT_SERVER: "https://discord.com/invite/united-city", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: "+", // Default prefix for the bot
+    DEFAULT_PREFIX: ".", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
     CONTEXT: true, // Should contexts be enabled
-    GLOBAL: false, // Should the interactions be registered globally
+    GLOBAL: true, // Should the interactions be registered globally
     TEST_GUILD_ID: "1264467216053833870", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
