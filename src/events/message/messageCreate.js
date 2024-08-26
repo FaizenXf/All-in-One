@@ -2,6 +2,8 @@ const { commandHandler, automodHandler, statsHandler } = require("@src/handlers"
 const { OWNER_IDS, PREFIX_COMMANDS } = require("@root/config");
 const { getSettings } = require("@schemas/Guild");
 
+const { chatbot } = require("@handlers/chatbot");
+
 /**
  * @param {import('@src/structures').BotClient} client
  * @param {import('discord.js').Message} message
@@ -10,12 +12,15 @@ module.exports = async (client, message) => {
   if (!message.guild || message.author.bot) return;
   const settings = await getSettings(message.guild);
 
+
+    await chatbot(client, message, settings);
+
   // command handler
   let isCommand = false;
   if (PREFIX_COMMANDS.ENABLED) {
     // check for bot mentions
     if (message.content.includes(`${client.user.id}`)) {
-      message.channel.safeSend(`>  **PREFIX FOR THIS SERVER IS \`${settings.prefix}\`\n> TYPE \`${settings.prefix}help\` FOR MORE INFO**`);
+      message.channel.safeSend(`>  **PREFIX FOR THIS SERVER IS \`${settings.prefix}\`\n> TYPE \`${settings.prefix}help\` FOR MORE INFORMATION**`); 
     }
 
     if (message.content && message.content.startsWith(settings.prefix)) {

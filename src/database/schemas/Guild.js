@@ -76,6 +76,11 @@ const Schema = new mongoose.Schema({
       channel_id: String,
     },
   ],
+  
+  chatbot: {
+    channel: String,
+    language: { type: String, default: "en" },
+  },
   welcome: {
     enabled: Boolean,
     channel: String,

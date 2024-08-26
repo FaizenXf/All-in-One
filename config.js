@@ -1,15 +1,15 @@
 module.exports = {
   OWNER_IDS: ["963354050617815060"], // Bot owner ID's
-  SUPPORT_SERVER: "https://discord.gg/united-city", // Your bot support server
+  SUPPORT_SERVER: "https://discord.com/invite/xRfBzpJB", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: ",", // Default prefix for the bot
+    DEFAULT_PREFIX: "+", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
     CONTEXT: true, // Should contexts be enabled
     GLOBAL: false, // Should the interactions be registered globally
-    TEST_GUILD_ID: "1113186474943324160", // Guild ID where the interactions should be registered. [** Test you commands here first **]
+    TEST_GUILD_ID: "1264467216053833870", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
     BOT_EMBED: "#00ff39",
@@ -27,6 +27,16 @@ module.exports = {
     API_ERROR: "Unexpected Backend Error! Try again later or contact support server",
   },
 
+    // AI CHATBOT 
+  AI_CHAT: {
+    ENABLED: true,
+    MODEL: "gemini-1.5-flash",
+    DEFAULT_LANG: "en",
+    TRANSLATE: true,
+    COOLDOWN: 10, // 10 seconds
+    ANTI_LINKS: false,
+    MAX_HISTORY: 6,
+  },
   // PLUGINS
 
   AUTOMOD: {
