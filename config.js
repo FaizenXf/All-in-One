@@ -1,6 +1,6 @@
 module.exports = {
   OWNER_IDS: ["963354050617815060"], // Bot owner ID's
-  SUPPORT_SERVER: "https://discord.gg/btQJeGKKHJ", // Your bot support server
+  SUPPORT_SERVER: "https://discord.gg/united-city", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
     DEFAULT_PREFIX: ",", // Default prefix for the bot
@@ -8,8 +8,8 @@ module.exports = {
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
     CONTEXT: true, // Should contexts be enabled
-    GLOBAL: true, // Should the interactions be registered globally
-    TEST_GUILD_ID: "1238428698575900682", // Guild ID where the interactions should be registered. [** Test you commands here first **]
+    GLOBAL: false, // Should the interactions be registered globally
+    TEST_GUILD_ID: "1113186474943324160", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
     BOT_EMBED: "#00ff39",
@@ -106,7 +106,7 @@ module.exports = {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: ".Help | @Mercury X ", // Your bot status message
+    MESSAGE: ".help | @.gg/united-city ", // Your bot status message
   },
 
   STATS: {

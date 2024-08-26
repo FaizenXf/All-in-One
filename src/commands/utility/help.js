@@ -111,13 +111,13 @@ async function getHelpMenu({ client, guild }) {
     .setLabel("Support")
     .setEmoji('1238430085795545139')
     .setStyle(ButtonStyle.Link)
-    .setURL("https://discord.gg/sNGBwSeZYM");
+    .setURL("https://discord.gg/united-city");
 
   const inviteButton = new ButtonBuilder()
     .setLabel("Invite")
     .setStyle(ButtonStyle.Link)
     .setEmoji('1238429920573784074')
-    .setURL("https://discord.com/api/oauth2/authorize?client_id=1238431297974566972&permissions=8&scope=bot+applications.commands");
+    .setURL("https://discord.com/api/oauth2/authorize?client_id=1220900514162544680&permissions=8&scope=bot+applications.commands");
 
   const voteButton = new ButtonBuilder()
     .setLabel("Vote Me")
@@ -157,13 +157,13 @@ async function getHelpMenu({ client, guild }) {
           inline: true
         }
         ])*/
-    .setAuthor({name: `Safari Help Panel..!`, iconURL: client.user.displayAvatarURL()})
+    .setAuthor({name: `Bot Help Panel..!`, iconURL: client.user.displayAvatarURL()})
     .setFooter({
-        text: `.help | Made With ❤️ By Faizen Sosuke`, iconURL: client.user.displayAvatarURL()
+        text: `,help | Made With ❤️ By Faizen Sosuke`, iconURL: client.user.displayAvatarURL()
       })
     .setDescription(`
 <:Knownas:1266799019472978076> ** __ABOUT ME. . !__**
-> Heya, It's " __Safarii__ "A Multipurpose Discord Bot with Large Amout of Features For Greater Experience.
+> Heya, It's " __United City__ "A Multipurpose Discord Bot with Large Amout of Features For Greater Experience.
 
  <:Knownas:1266799019472978076> **__CATEGORIES. . !__**
 > <:saf_owner:1260983975397032058> : Admin
