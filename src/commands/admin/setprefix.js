@@ -10,6 +10,7 @@ module.exports = {
   userPermissions: ["ManageGuild"],
   command: {
     enabled: true,
+    aliases: ["prefix"],
     usage: "<new-prefix>",
     minArgsCount: 1,
   },

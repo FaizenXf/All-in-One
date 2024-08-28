@@ -93,6 +93,13 @@ const Schema = new mongoose.Schema({
       image: String,
     },
   },
+    afk: [{
+    userId: String,
+    status: { type: Boolean, default: false },
+    reason: String,
+    msglink: [String],
+    afktime: Date,
+  }],
   farewell: {
     enabled: Boolean,
     channel: String,
