@@ -159,11 +159,11 @@ async function getHelpMenu({ client, guild }) {
         ])*/
     .setAuthor({name: `Bot Help Panel..!`, iconURL: client.user.displayAvatarURL()})
     .setFooter({
-        text: `,help | Made With ❤️ By Faizen Sosuke`, iconURL: client.user.displayAvatarURL()
+        text: `+help | Made With ❤️ By Faizen Sosuke`, iconURL: client.user.displayAvatarURL()
       })
     .setDescription(`
 <:Knownas:1266799019472978076> ** __ABOUT ME. . !__**
-> Heya, It's " __United City__ "A Multipurpose Discord Bot with Large Amout of Features For Greater Experience.
+> Heya, It's " __BollyWood™__ "A Multipurpose Discord Bot with Large Amout of Features For Greater Experience.
 
  <:Knownas:1266799019472978076> **__CATEGORIES. . !__**
 > <:saf_owner:1260983975397032058> : Admin
