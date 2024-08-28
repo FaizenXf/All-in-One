@@ -20,7 +20,7 @@ module.exports = async (client, message) => {
   if (PREFIX_COMMANDS.ENABLED) {
     // check for bot mentions
     if (message.content.includes(`${client.user.id}`)) {
-      message.channel.safeSend(`> prefix for this server is\`${settings.prefix}\``); 
+      message.channel.safeSend(`> prefix for this server is \`${settings.prefix}\``); 
     }
 
     if (message.content && message.content.startsWith(settings.prefix)) {
