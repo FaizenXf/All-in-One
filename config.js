@@ -80,7 +80,7 @@ module.exports = {
 
   GIVEAWAYS: {
     ENABLED: true,
-    REACTION: " <:Verified:1265999533872250944> ",
+    REACTION: " <:giveaways:1280786853397659702> ",
     START_EMBED: "#00ff39",
     END_EMBED: "#00ff39",
   },
@@ -114,7 +114,7 @@ module.exports = {
 
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
-    STATUS: "online", // The bot's status [online, idle, dnd, invisible]
+    STATUS: "idle", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
     MESSAGE: "+help | @.gg/bollywood ", // Your bot status message
   },

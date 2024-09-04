@@ -1,0 +1,106 @@
+{"level":30,"time":1725433915604,"pid":508,"hostname":"de5ceb572899","msg":"Validating config file and environment variables"}
+{"level":30,"time":1725433915911,"pid":508,"hostname":"de5ceb572899","msg":"Loading commands..."}
+{"level":20,"time":1725433915918,"pid":508,"hostname":"de5ceb572899","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1725433915973,"pid":508,"hostname":"de5ceb572899","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1725433916053,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command boostcount. Disabled!"}
+{"level":20,"time":1725433916054,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command emojicount. Disabled!"}
+{"level":20,"time":1725433916065,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command membercount. Disabled!"}
+{"level":20,"time":1725433916068,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1725433916070,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1725433916073,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1725433916078,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1725433916079,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1725433916113,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1725433916117,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1725433916120,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1725433916134,"pid":508,"hostname":"de5ceb572899","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1725433916140,"pid":508,"hostname":"de5ceb572899","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1725433916226,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1725433916241,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1725433916242,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1725433916246,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1725433916249,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1725433916268,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1725433916270,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1725433916275,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1725433916277,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1725433916280,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1725433916290,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1725433916299,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1725433916389,"pid":508,"hostname":"de5ceb572899","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1725433916401,"pid":508,"hostname":"de5ceb572899","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1725433916480,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1725433916482,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1725433916488,"pid":508,"hostname":"de5ceb572899","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1725433916523,"pid":508,"hostname":"de5ceb572899","msg":"Loaded 102 commands"}
+{"level":30,"time":1725433916526,"pid":508,"hostname":"de5ceb572899","msg":"Loaded 80 slash commands"}
+{"level":30,"time":1725433916527,"pid":508,"hostname":"de5ceb572899","msg":"Loading contexts..."}
+{"level":30,"time":1725433916529,"pid":508,"hostname":"de5ceb572899","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1725433916531,"pid":508,"hostname":"de5ceb572899","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1725433916533,"pid":508,"hostname":"de5ceb572899","msg":"Loading events..."}
+{"level":30,"time":1725433916623,"pid":508,"hostname":"de5ceb572899","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1725433916976,"pid":508,"hostname":"de5ceb572899","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1725433916976,"pid":508,"hostname":"de5ceb572899","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1725433917349,"pid":508,"hostname":"de5ceb572899","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1725433919220,"pid":508,"hostname":"de5ceb572899","msg":"Logged in as BalatKari-Talks#9660! (1276397335966126155)"}
+{"level":20,"time":1725433919223,"pid":508,"hostname":"de5ceb572899","msg":"Node \"Music\" debug: connection: creating websocket..."}
+{"level":30,"time":1725433919228,"pid":508,"hostname":"de5ceb572899","msg":"Music Manager initialized"}
+{"level":30,"time":1725433919229,"pid":508,"hostname":"de5ceb572899","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1725433919288,"pid":508,"hostname":"de5ceb572899","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1725433919981,"pid":508,"hostname":"de5ceb572899","msg":"Successfully registered interactions"}
+{"level":50,"time":1725434053913,"pid":508,"hostname":"de5ceb572899","err":{"type":"Error","message":"Error: connect ETIMEDOUT 116.49.5.62:57010","stack":"Error: Error: connect ETIMEDOUT 116.49.5.62:57010\n    at Connection._onerror (/home/runner/All-In-One-Bot-V2/node_modules/lavaclient/dist/lib/node/Connection.js:145:33)\n    at callListener (/home/runner/All-In-One-Bot-V2/node_modules/ws/lib/event-target.js:290:14)\n    at WebSocket.onError (/home/runner/All-In-One-Bot-V2/node_modules/ws/lib/event-target.js:230:9)\n    at WebSocket.emit (node:events:517:28)\n    at emitErrorAndClose (/home/runner/All-In-One-Bot-V2/node_modules/ws/lib/websocket.js:1033:13)\n    at ClientRequest.<anonymous> (/home/runner/All-In-One-Bot-V2/node_modules/ws/lib/websocket.js:880:5)\n    at ClientRequest.emit (node:events:517:28)\n    at Socket.socketErrorListener (node:_http_client:501:9)\n    at Socket.emit (node:events:517:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)"},"msg":"Node \"Music\" encountered an error: Error: connect ETIMEDOUT 116.49.5.62:57010.: Error: connect ETIMEDOUT 116.49.5.62:57010"}
+{"level":30,"time":1725434053920,"pid":508,"hostname":"de5ceb572899","msg":"Node \"Music\" disconnected"}
+{"level":20,"time":1725434053920,"pid":508,"hostname":"de5ceb572899","msg":"Node \"Music\" debug: connection: unable to reconnect"}
+{"level":30,"time":1725434075419,"pid":583,"hostname":"de5ceb572899","msg":"Validating config file and environment variables"}
+{"level":30,"time":1725434075566,"pid":583,"hostname":"de5ceb572899","msg":"Loading commands..."}
+{"level":20,"time":1725434075575,"pid":583,"hostname":"de5ceb572899","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1725434075620,"pid":583,"hostname":"de5ceb572899","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1725434075671,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command boostcount. Disabled!"}
+{"level":20,"time":1725434075671,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command emojicount. Disabled!"}
+{"level":20,"time":1725434075675,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command membercount. Disabled!"}
+{"level":20,"time":1725434075677,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1725434075678,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1725434075679,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1725434075680,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1725434075681,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1725434075688,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1725434075689,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1725434075690,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1725434075692,"pid":583,"hostname":"de5ceb572899","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1725434075692,"pid":583,"hostname":"de5ceb572899","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1725434075701,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1725434075702,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1725434075703,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1725434075704,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1725434075704,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1725434075705,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1725434075705,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1725434075706,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1725434075706,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1725434075707,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1725434075708,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1725434075709,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1725434075711,"pid":583,"hostname":"de5ceb572899","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1725434075712,"pid":583,"hostname":"de5ceb572899","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1725434075740,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1725434075741,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1725434075742,"pid":583,"hostname":"de5ceb572899","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1725434075756,"pid":583,"hostname":"de5ceb572899","msg":"Loaded 102 commands"}
+{"level":30,"time":1725434075756,"pid":583,"hostname":"de5ceb572899","msg":"Loaded 80 slash commands"}
+{"level":30,"time":1725434075756,"pid":583,"hostname":"de5ceb572899","msg":"Loading contexts..."}
+{"level":30,"time":1725434075757,"pid":583,"hostname":"de5ceb572899","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1725434075757,"pid":583,"hostname":"de5ceb572899","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1725434075757,"pid":583,"hostname":"de5ceb572899","msg":"Loading events..."}
+{"level":30,"time":1725434075824,"pid":583,"hostname":"de5ceb572899","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1725434076162,"pid":583,"hostname":"de5ceb572899","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1725434076163,"pid":583,"hostname":"de5ceb572899","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1725434076405,"pid":583,"hostname":"de5ceb572899","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1725434078217,"pid":583,"hostname":"de5ceb572899","msg":"Logged in as BalatKari-Talks#9660! (1276397335966126155)"}
+{"level":20,"time":1725434078218,"pid":583,"hostname":"de5ceb572899","msg":"Node \"Music\" debug: connection: creating websocket..."}
+{"level":30,"time":1725434078219,"pid":583,"hostname":"de5ceb572899","msg":"Music Manager initialized"}
+{"level":30,"time":1725434078219,"pid":583,"hostname":"de5ceb572899","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1725434078239,"pid":583,"hostname":"de5ceb572899","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1725434078897,"pid":583,"hostname":"de5ceb572899","msg":"Successfully registered interactions"}
+{"level":50,"time":1725434211610,"pid":583,"hostname":"de5ceb572899","err":{"type":"Error","message":"Error: connect ETIMEDOUT 116.49.5.62:57010","stack":"Error: Error: connect ETIMEDOUT 116.49.5.62:57010\n    at Connection._onerror (/home/runner/All-In-One-Bot-V2/node_modules/lavaclient/dist/lib/node/Connection.js:145:33)\n    at callListener (/home/runner/All-In-One-Bot-V2/node_modules/ws/lib/event-target.js:290:14)\n    at WebSocket.onError (/home/runner/All-In-One-Bot-V2/node_modules/ws/lib/event-target.js:230:9)\n    at WebSocket.emit (node:events:517:28)\n    at emitErrorAndClose (/home/runner/All-In-One-Bot-V2/node_modules/ws/lib/websocket.js:1033:13)\n    at ClientRequest.<anonymous> (/home/runner/All-In-One-Bot-V2/node_modules/ws/lib/websocket.js:880:5)\n    at ClientRequest.emit (node:events:517:28)\n    at Socket.socketErrorListener (node:_http_client:501:9)\n    at Socket.emit (node:events:517:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)"},"msg":"Node \"Music\" encountered an error: Error: connect ETIMEDOUT 116.49.5.62:57010.: Error: connect ETIMEDOUT 116.49.5.62:57010"}
+{"level":30,"time":1725434211614,"pid":583,"hostname":"de5ceb572899","msg":"Node \"Music\" disconnected"}
+{"level":20,"time":1725434211614,"pid":583,"hostname":"de5ceb572899","msg":"Node \"Music\" debug: connection: unable to reconnect"}
